@@ -75,8 +75,13 @@ under the License.
       <groupId>org.apache.syncope.common.keymaster</groupId>
       <artifactId>syncope-common-keymaster-client-zookeeper</artifactId>
     </dependency>
+    <dependency>
+        <groupId>org.webjars.npm</groupId>
+        <artifactId>sweetalert2</artifactId>
+        <version>11.23.0</version>
+    </dependency>
   </dependencies>
-
+  
   <build>
     <finalName>syncope-wa</finalName>
 

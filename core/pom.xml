@@ -42,7 +42,11 @@ under the License.
       <artifactId>syncope-common</artifactId>
       <version>${project.version}</version>
     </dependency>
-    
+    <dependency>
+      <groupId>org.apache.syncope.core.idrepo</groupId>
+      <artifactId>syncope-core-idrepo-rest-cxf</artifactId>
+      <version>${syncope.version}</version>
+    </dependency>
     <dependency>
       <groupId>org.apache.syncope.core</groupId>
       <artifactId>syncope-core-starter</artifactId>

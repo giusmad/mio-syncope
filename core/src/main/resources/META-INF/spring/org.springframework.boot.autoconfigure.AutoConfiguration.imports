@@ -20,3 +20,5 @@ org.apache.syncope.core.persistence.jpa.PGPersistenceContext
 org.apache.syncope.core.persistence.jpa.MySQLPersistenceContext
 org.apache.syncope.core.persistence.jpa.MariaDBPersistenceContext
 org.apache.syncope.core.persistence.jpa.OraclePersistenceContext
+org.apache.syncope.core.rest.cxf.service.ProvaImpl
+org.apache.syncope.core.logic.ProvaLogic

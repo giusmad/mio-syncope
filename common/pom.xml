@@ -33,7 +33,11 @@ under the License.
   <packaging>jar</packaging>
 
   <dependencies>
-
+    <dependency>
+      <groupId>org.apache.syncope.common.idrepo</groupId>
+      <artifactId>syncope-common-idrepo-rest-api</artifactId>
+      <version>4.0.4</version>
+    </dependency>
     <dependency>
       <groupId>org.apache.syncope.common.idm</groupId>
       <artifactId>syncope-common-idm-lib</artifactId>
